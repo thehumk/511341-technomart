@@ -9,19 +9,22 @@
     <header class="container">
         <a class="logo">Техномарт</a>
         <div class="search">
-        <img src="img/search.svg">
-        <!--    <input> -->
+            <form class="search" method="get" action="#">
+                <p>
+                    <input type="text" name="search" placeholder="Поиск">
+                </p>
+            </form>
         </div>
         <div class="buy-block">
-            <a href="#"><img src="img/bookmark.svg">Закладки:<span>0</span></a>
-            <a href="#"><img src="img/cart.svg">Корзина:<span>0</span></a>
+            <a href="#">Закладки:<span>0</span></a>
+            <a href="#">Корзина:<span>0</span></a>
             <a href="#" class="buy">Оформить заказ</a>
         </div>
         <p class="head-text">
             Интернет-магазин строительных материалов и инструментов для ремонта
         </p>
         <div class="head-contact">
-            <p class="phone"><img src="img/phone.svg">+7 (812) 555-05-55</p>
+            <p class="phone">+7 (812) 555-05-55</p>
             <p class="address">г. Санкт-Петербург, ул. Б.Конюшенная, д. 19/8</p>
         </div>
         <div class="user-block">
@@ -61,17 +64,14 @@
             <div class="materials block-content">
                 <h3>Материалы</h3>
                 <a href="#" class="additional">На любой вкус</a>
-                <img src="img/materials.svg">
             </div>
             <div class="tool block-content">
                 <h3>Инструмент</h3>
                 <a href="#" class="additional">На все случаи</a>
-                <img src="img/tool.svg">
             </div>
             <div class="tech block-content">
                 <h3>Техника</h3>
                 <a href="#" class="additional">Для стройки</a>
-                <img src="img/tech.svg">
             </div>
             <div class="slider">
                 <h3>Перфораторы</h3>
@@ -81,12 +81,10 @@
             <div class="discount block-content">
                 <h3>Скидки 50%</h3>
                 <a href="#" class="additional">На 350 товаров</a>
-                <img src="img/discount.svg">
             </div>
             <div class="delivery block-content">
                 <h3>Доставка</h3>
                 <a href="#" class="additional">Бесплатно</a>
-                <img src="img/delivery.svg">
             </div>
         </section>
         <section class="items">
@@ -94,25 +92,21 @@
             <a href="#" class="more-info">Все популярные товары</a>
             <ul>
                 <li class="popular-item">
-                    <img src="img/bfg9000.jpg" alt="Перфоратор BOSCH BFG 9000">
                     <h3 class="puncher">Перфоратор BOSCH BFG 9000</h3>
                     <p class="old-price">32500 Р.</p>
                     <p class="new-price">25500 Р.</p>
                 </li>
                 <li class="popular-item">
-                    <img src="img/bfg2000.jpg" alt="Перфоратор BOSCH BFG 3000">
                     <h3 class="puncher">Перфоратор BOSCH BFG 3000</h3>
                     <p class="old-price">22500 Р.</p>
                     <p class="new-price">15500 Р.</p>
                 </li>
                 <li class="popular-item">
-                    <img src="img/bfg6000.jpg" alt="Перфоратор BOSCH BFG 6000">
                     <h3 class="puncher">Перфоратор BOSCH BFG 6000</h3>
                     <p class="old-price">30500 Р.</p>
                     <p class="new-price">25500 Р.</p>
                 </li>
                 <li class="popular-item">
-                    <img src="img/bfg2000.jpg" alt="Перфоратор BOSCH BFG 2000">
                     <h3 class="puncher">Перфоратор BOSCH BFG 2000</h3>
                     <p class="new-price">12500 Р.</p>
                 </li>
@@ -123,28 +117,28 @@
             <a href="#" class="more-info">Все производители</a>
             <ul>
                 <li class="manufacturer">
-                    <a href="#"><img src="img/bosch.jpg" alt="Bosch"></a>
+                    <a href="#">BOSCH</a>
                 </li>
                 <li class="manufacturer">
-                    <a href="#"><img src="img/Makita.jpg" alt="Makita"></a>
+                    <a href="#">Makita</a>
                 </li>
                 <li class="manufacturer">
-                    <a href="#"><img src="img/DeWALT.jpg" alt="DeWALT"></a>
+                    <a href="#">DeWALT</a>
                 </li>
                 <li class="manufacturer">
-                    <a href="#"><img src="img/Interskol.jpg" alt="Интерскол"></a>
+                    <a href="#">Интерскол</a>
                 </li>
                 <li class="manufacturer">
-                    <a href="#"><img src="img/Hitachi.jpg" alt="Hitachi"></a>
+                    <a href="#">Hitachi</a>
                 </li>
                 <li class="manufacturer">
-                    <a href="#"><img src="img/LG.jpg" alt="LG"></a>
+                    <a href="#">LG</a>
                 </li>
                 <li class="manufacturer">
-                    <a href="#"><img src="img/AEG.jpg" alt="AEG"></a>
+                    <a href="#">AEG</a>
                 </li>
                 <li class="manufacturer">
-                    <a href="#"><img src="img/Metabo.jpg" alt="metabo"></a>
+                    <a href="#">metabo</a>
                 </li>
             </ul>
         </section>
@@ -191,7 +185,6 @@
             <div>
                 <h2>Контакты</h2>
                 <p>Вы можете забрать товар сами, заехав в наш офис:</p>
-                <img src="img/map.jpg" alt="map">
                 <a href="#" class="more-info">Заблудились? Напишите нам!</a>
             </div>
         </section>
@@ -242,9 +235,9 @@
             </p>
         </section>
         <section class="footer-social">
-            <a class="social social-vk" href="#"><img src="img/vk.svg" alt="Вконтакте"></a>
-            <a class="social social-fb" href="#"><img src="img/fb.svg" alt="Фейсбук"></a>
-            <a class="social social-inst" href="#"><img src="img/inst.svg" alt="Инстаграм"></a>
+            <a class="social social-vk" href="#" aria-label="Вконтакте">Вконтакте</a>
+            <a class="social social-fb" href="#" aria-label="Фейсбук">Фейсбук</a>
+            <a class="social social-inst" href="#" aria-label="Инстаграм">Инстаграм</a>
         </section>
         <section class="feedback">
             <p>Обратная связь:</p>
