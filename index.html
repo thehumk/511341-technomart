@@ -7,18 +7,20 @@
   </head>
   <body>
     <header class="container">
-        <a class="logo">Техномарт</a>
-        <div class="search">
-            <form class="search" method="get" action="#">
-                <p>
-                    <input type="text" name="search" placeholder="Поиск">
-                </p>
-            </form>
-        </div>
-        <div class="buy-block">
-            <a href="#">Закладки:<span>0</span></a>
-            <a href="#">Корзина:<span>0</span></a>
-            <a href="#" class="buy">Оформить заказ</a>
+        <div>
+            <a class="logo">Техномарт</a>
+            <div class="search">
+                <form class="search" method="get" action="#">
+                    <p>
+                        <input type="text" name="search" placeholder="Поиск">
+                    </p>
+                </form>
+            </div>
+            <div class="buy-block">
+                <a href="#">Закладки:<span>0</span></a>
+                <a href="#">Корзина:<span>0</span></a>
+                <a href="#" class="buy">Оформить заказ</a>
+            </div>
         </div>
         <p class="head-text">
             Интернет-магазин строительных материалов и инструментов для ремонта
@@ -188,6 +190,7 @@
                 <a href="#" class="more-info">Заблудились? Напишите нам!</a>
             </div>
         </section>
+        
     </main>
     <footer class="container">
         <section>
@@ -248,5 +251,27 @@
             <p>htmlacademy.ru</p>
         </section>
     </footer>
+    <div>
+        <form method="post" class="write-us" action="#">
+            <fieldset>
+                <div>
+                    <label>Ваше имя:</label>
+                    <input type="text" name="login" id="field-login" placeholder="Представьтесь, пожалуйста" required>
+                </div>
+                <div>
+                    <label>Ваш e-mail:</label>
+                    <input type="email" name="e-mail" id="field-e-mail" placeholder="Для отправки ответа" required>
+                </div>
+                <div>
+                    <label>Текст письма:</label>
+                    <input type="text" name="latter" id="id-latter" placeholder="В свободной форме" required>
+                </div>
+                <button type="submit">ОТПРАВИТЬ</button>
+            </fieldset>
+        </form>
+    </div>
+    <div class="map">
+        <button type="button" class="close-map" title="Закрыть карту"></button>
+    </div>
   </body>
 </html>
