@@ -119,18 +119,6 @@ input[type="radio"].visually-hidden {
     opacity: 1;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 .buy-block {
     font-size: 17px;
     line-height: 42px;
@@ -392,7 +380,7 @@ input[type="radio"].visually-hidden {
 
 .user-my {
     text-decoration: underline;
-    color: black;
+    color: #32425c;
 }
 
 .my-orders {
@@ -1790,6 +1778,7 @@ input[type="radio"].visually-hidden {
 .filter-manufacturer p {
     margin: 0;
     margin-bottom: 15px;
+    font-size: 15px;
 }
 
 .input-checkbox {
@@ -1986,10 +1975,10 @@ input[type="radio"].visually-hidden {
 .page {
     display: inline-block;
     width: 36px;
-    height: 38px;
+    height: 36px;
     margin-right: 10px;
     font-size: 13px;
-    line-height: 38px;
+    line-height: 36px;
     color: black;
     text-align: center;
     border: 1px solid #d7dcde;
@@ -1998,10 +1987,10 @@ input[type="radio"].visually-hidden {
 .page-next {
     display: inline-block;
     width: 138px;
-    height: 38px;
+    height: 36px;
     margin-right: 10px;
     font-size: 13px;
-    line-height: 38px;
+    line-height: 36px;
     color: black;
     text-align: center;
     border: 1px solid #d7dcde;
