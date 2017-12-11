@@ -249,11 +249,12 @@ input[type="radio"].visually-hidden {
 .phone {
     position: relative;
     margin: 0;
-    padding-left: 63px;
-    padding-top: 7px;
+    padding-left: 60px;
+    padding-top: 4px;
     font-size: 21px;
     line-height: 24px;
     color: #ee3643;
+    border: 3px solid #fff;
 }
 
 .phone:after {
@@ -261,13 +262,14 @@ input[type="radio"].visually-hidden {
     content: "";
     width: 18px;
     height: 19px;
-    left: 5px;
-    top: 9px;
+    left: 0px;
+    top: 6px;
     background-image: url(../img/icon-phone.svg);
     background-repeat: no-repeat;
 }
 
 .address {
+    margin-top: 11px;
     line-height: 24px;
     color: #32425c;
 }
@@ -383,6 +385,7 @@ input[type="radio"].visually-hidden {
 }
 
 .my-user {
+    position: relative;
     font-size: 16px;
     line-height: 18px;
 }
@@ -394,24 +397,16 @@ input[type="radio"].visually-hidden {
 
 .my-orders {
     padding-left: 4px;
+    margin-right: 33px;
 }
 
-.point {
-    position: relative;
-    display: inline-block;
-    width: 4px;
-    height: 4px;
-    margin-left: 16px;
-    margin-right: 13px;
-}
-
-.point:after {
+.my-user:after {
     position: absolute;
     content: "";
     width: 4px;
     height: 4px;
-    left: 0;
-    top: -2px;
+    left: 94px;
+    top: 7px;
     background-color: #32425c;
     border-radius: 50%;
 }
@@ -596,11 +591,21 @@ input[type="radio"].visually-hidden {
     width: 620px;
     min-height: 266px;
     margin-right: 20px;
+}
+
+.slider1 {
+    height: 266px;
     background-image: url(../img/slider1.jpg);
 }
 
+.slider2 {
+    height: 266px;
+    background-image: url(../img/slider2.jpg); 
+}
+
 .slider h3 {
-    margin-top: 23px;
+    padding-top: 23px;
+    margin-top: 0;
     margin-left: 25px;
     margin-bottom: 0;
     font-size: 36px;
@@ -643,22 +648,28 @@ input[type="radio"].visually-hidden {
 
 .icon-left {
     position: absolute;
+    width: 22px;
+    height: 40px;
     left: 25px;
     top: 114px;
     margin: 0;
     padding: 0;
     background: none;
+    background-image: url(../img/icon-left.svg);
     border: none;
     cursor: pointer;
 }
 
 .icon-right {
     position: absolute;
+    width: 22px;
+    height: 40px;
     right: 20px;
     top: 114px;
     margin: 0;
     padding: 0;
     background: none;
+    background-image: url(../img/icon-right.svg);
     border: none;
     cursor: pointer;
 }
@@ -973,9 +984,13 @@ input[type="radio"].visually-hidden {
 }
 
 .service p {
-    margin-bottom: 70px;
+    margin: 0;
     font-family: "PT Sans", Arial, sans-serif;
     font-size: 13px;
+}
+
+.service .service-last-text {
+    margin-bottom: 70px;
 }
 
 .service-content {
@@ -1131,10 +1146,14 @@ input[type="radio"].visually-hidden {
     font-size: 13px;
     line-height: 24px;
     margin: 0;
-    margin-bottom: 25px;
+    margin-bottom: 0px;
 }
 
 .company .company-content {
+    margin-bottom: 25px;
+}
+
+.company .company-content-last {
     margin-bottom: 20px;
 }
 
@@ -1251,14 +1270,24 @@ input[type="radio"].visually-hidden {
     text-decoration: none;
 }
 
-.footer-address p {
+.footer-address {
     width: 350px;
     font-size: 18px;
     line-height: 24px;
     color: #f3f7f9;
-    margin-top: 36px;
-    margin-bottom: 46px;
-    margin-left: 2px;
+    margin-top: 33px;
+    margin-bottom: 0;
+    margin-left: 3px;
+}
+
+.footer-phone {
+    width: 350px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #f3f7f9;
+    margin-top: 0;
+    margin-bottom: 49px;
+    margin-left: 3px;
 }
 
 .footer-nav-item {
@@ -1314,9 +1343,16 @@ input[type="radio"].visually-hidden {
     color: #fff;
 }
 
-.copyright p {
+.copyright {
     width: 230px;
     margin-top: 37px;
+    margin-bottom: 0;
+    margin-right: 160px;
+}
+
+.copyright-reserved {
+    width: 230px;
+    margin-top: 0px;
     margin-right: 160px;
 }
 
@@ -1701,10 +1737,12 @@ input[type="radio"].visually-hidden {
 
 .price-number {
     position: relative;
+    display: flex;
+    justify-content: space-between;
 }
 
 .price-number input {
-    width: 93px;
+    width: 95px;
     height: 38px;
     font-size: 17px;
     background-color: #f7f3ec;
@@ -1712,10 +1750,6 @@ input[type="radio"].visually-hidden {
     text-align: center;
     border: none;
     font-family: "PT Sans", Arial, sans-serif;
-}
-
-.price-min {
-    margin-right: 25px;
 }
 
 .price-number:before {
