@@ -1409,8 +1409,11 @@ input[type="radio"].visually-hidden {
     background-repeat: no-repeat;
     width: 26px;
     height: 15px;
-    left: 7px;
-    top: 12.5px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
 }
 
 .social-fb {
@@ -1424,8 +1427,11 @@ input[type="radio"].visually-hidden {
     background-repeat: no-repeat;
     width: 12px;
     height: 22px;
-    left: 14px;
-    top: 9px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
 }
 
 .social-inst {
@@ -1440,8 +1446,11 @@ input[type="radio"].visually-hidden {
     background-repeat: no-repeat;
     width: 21px;
     height: 21px;
-    left: 9.5px;
-    top: 9.5px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
 }
 
 .feedback p {
